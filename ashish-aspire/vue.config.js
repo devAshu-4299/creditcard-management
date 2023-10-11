@@ -5,7 +5,7 @@ module.exports = defineConfig({
   lintOnSave: false,
   runtimeCompiler:true,
   configureWebpack: {
-    devtool: "source-map",
+    // devtool: "source-map",
     optimization: {
       runtimeChunk: "single",
       minimize: true,
